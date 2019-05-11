@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+        <tr th:each="User : ${pageInfo.list}">
+            <td th:text="${User.loginName}"></td>
+            <td th:text="${User.password}"></td>
+            <td th:text="${User.reDate}"></td>
+        </tr>
+    </table>
+</body>
+</html>

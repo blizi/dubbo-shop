@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="myshop-commons" />
+        <module name="myshop-commons-domain" />
+        <module name="myshop-commons-dubbo" />
+        <module name="myshop-commons-mapper" />
+        <module name="myshop-databases" />
+        <module name="myshop-service-redis-api" />
+        <module name="myshop-service-redis-provider" />
+        <module name="myshop-service-user-api" />
+        <module name="myshop-service-user-consumer" />
+        <module name="myshop-service-user-provider" />
+        <module name="myshop-static-backend" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="myshop-commons" target="1.8" />
+      <module name="myshop-commons-domain" target="1.8" />
+      <module name="myshop-commons-dubbo" target="1.8" />
+      <module name="myshop-commons-mapper" target="1.8" />
+      <module name="myshop-databases" target="1.8" />
+      <module name="myshop-dependencies" target="1.8" />
+      <module name="myshop-service-redis-api" target="1.8" />
+      <module name="myshop-service-redis-provider" target="1.8" />
+      <module name="myshop-service-user-api" target="1.8" />
+      <module name="myshop-service-user-consumer" target="1.8" />
+      <module name="myshop-service-user-provider" target="1.8" />
+      <module name="myshop-static-backend" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

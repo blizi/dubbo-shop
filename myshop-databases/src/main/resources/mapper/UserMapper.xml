@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.funtl.myshop.commons.mapper.UserMapper">
+  <resultMap id="BaseResultMap" type="com.funtl.myshop.commons.domain.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="login_name" jdbcType="VARCHAR" property="loginName" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="re_date" jdbcType="VARCHAR" property="reDate" />
+    <result column="show_name" jdbcType="VARCHAR" property="showName" />
+  </resultMap>
+</mapper>
